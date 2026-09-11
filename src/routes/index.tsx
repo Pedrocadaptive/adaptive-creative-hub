@@ -118,10 +118,8 @@ function Index() {
               Future
             </span>
           </h1>
-          <p className="mt-8 max-w-xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
-            Ninguém é melhor que ninguém. Adaptamo-nos a cada circunstância, aos novos tempos e às novas
-            ferramentas — porque não é o mais forte nem o mais inteligente que sobrevive, mas o que melhor se
-            adapta.
+          <p className="mt-8 max-w-3xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
+            Um estúdio que adapta marcas à nova era digital com estratégia, criatividade e tecnologia.
           </p>
           <div className="mt-12 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
             <ArrowDown className="h-4 w-4 animate-bounce" />
