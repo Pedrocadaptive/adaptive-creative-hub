@@ -112,14 +112,9 @@ function Index() {
         />
         <div className="relative mx-auto w-full max-w-7xl">
           <img src={symbolWhite.url} alt="" className="mb-8 h-14 w-auto opacity-90" />
-          <h1 className="font-display text-[14vw] font-black uppercase leading-[0.85] tracking-tighter text-balance md:text-[8.5rem]">
-            Earn the <br className="hidden md:block" />
-            <span className="text-transparent" style={{ WebkitTextStroke: "1.5px currentColor" }}>
-              Future
-            </span>
-          </h1>
+          <h1 className="font-display text-[14vw] font-black uppercase leading-[0.85] tracking-tighter text-balance md:text-[8.5rem]">{"\n"}</h1>
           <p className="mt-8 max-w-3xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
-            Um estúdio que adapta marcas à nova era digital com estratégia, criatividade e tecnologia.
+            EARN THE FUTURE. UM ESTÚDIO QUE ADAPTA MARCAS À NOVA ERA DIGITAL COM ESTRATÉGIA, CRIATIVIDADE E TECNOLOGIA.
           </p>
           <div className="mt-12 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
             <ArrowDown className="h-4 w-4 animate-bounce" />
