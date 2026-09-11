@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 
+import logoWhite from "@/assets/adaptive-logo-white.png.asset.json";
+import symbolWhite from "@/assets/adaptive-symbol-white.png.asset.json";
 import workLight from "@/assets/work-light.jpg";
 import workChrome from "@/assets/work-chrome.jpg";
 import workDance from "@/assets/work-dance.jpg";
@@ -76,8 +78,8 @@ function Index() {
       {/* Nav */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="#top" className="text-sm font-semibold uppercase tracking-[0.3em]">
-            Adaptive
+          <a href="#top" aria-label="Adaptive Creative Studio">
+            <img src={logoWhite.url} alt="Adaptive" className="h-4 w-auto" />
           </a>
           <div className="hidden items-center gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground md:flex">
             <a href="#work" className="transition-colors hover:text-foreground">
