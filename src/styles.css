@@ -55,8 +55,8 @@
 }
 
 @theme {
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-sans: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Archivo", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --animate-marquee: marquee 40s linear infinite;
 
   @keyframes marquee {

@@ -113,14 +113,18 @@ function Index() {
         <div className="relative mx-auto w-full max-w-7xl">
           <img src={symbolWhite.url} alt="" className="mb-8 h-14 w-auto opacity-90" />
           <p className="mb-6 text-xs uppercase tracking-[0.35em] text-muted-foreground">
-            Estúdio criativo — Lisboa · São Paulo
+            Estúdio criativo — Viseu, Portugal
           </p>
-          <h1 className="font-display text-[13vw] leading-[0.95] tracking-tight text-balance md:text-[7.5rem]">
-            Um estúdio para <em className="text-accent not-italic">imagem</em>,{" "}
-            <em className="text-accent not-italic">filme</em> e <em className="text-accent not-italic">mundo</em>.
+          <h1 className="font-display text-[14vw] font-black uppercase leading-[0.85] tracking-tighter text-balance md:text-[8.5rem]">
+            Earn the <br className="hidden md:block" />
+            <span className="text-transparent" style={{ WebkitTextStroke: "1.5px currentColor" }}>
+              Future
+            </span>
           </h1>
-          <p className="mt-8 max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-            O ponto onde uma ideia deixa de ser imaginada e começa a ser vista.
+          <p className="mt-8 max-w-xl text-base font-medium leading-relaxed text-muted-foreground md:text-lg">
+            Ninguém é melhor que ninguém. Adaptamo-nos a cada circunstância, aos novos tempos e às novas
+            ferramentas — porque não é o mais forte nem o mais inteligente que sobrevive, mas o que melhor se
+            adapta.
           </p>
           <div className="mt-12 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
             <ArrowDown className="h-4 w-4 animate-bounce" />
@@ -133,7 +137,7 @@ function Index() {
       <section aria-label="Disciplinas" className="overflow-hidden border-y border-border py-6">
         <div className="flex w-max animate-marquee gap-12 whitespace-nowrap">
           {[...disciplines, ...disciplines].map((d, i) => (
-            <span key={i} className="flex items-center gap-12 text-2xl font-light uppercase tracking-[0.2em] text-muted-foreground">
+            <span key={i} className="flex items-center gap-12 text-2xl font-semibold uppercase tracking-[0.15em] text-muted-foreground">
               {d}
               <span className="text-accent">✦</span>
             </span>
@@ -144,8 +148,8 @@ function Index() {
       {/* Work */}
       <section id="work" className="mx-auto max-w-7xl px-6 py-28 md:py-40">
         <div className="mb-16 flex items-end justify-between">
-          <h2 className="font-display text-5xl tracking-tight md:text-7xl">Trabalhos selecionados</h2>
-          <span className="hidden text-xs uppercase tracking-[0.3em] text-muted-foreground md:block">
+          <h2 className="font-display text-4xl font-black uppercase tracking-tighter md:text-6xl">Trabalhos selecionados</h2>
+          <span className="hidden text-xs font-semibold uppercase tracking-[0.3em] text-muted-foreground md:block">
             2024 — 2026
           </span>
         </div>
@@ -181,9 +185,13 @@ function Index() {
             <p className="text-xs uppercase tracking-[0.35em] text-muted-foreground">O estúdio</p>
           </div>
           <div>
-            <p className="font-display text-3xl leading-snug tracking-tight md:text-5xl">
-              Somos uma equipa pequena com obsessão por detalhe. Acreditamos que cada projeto é um mundo — e
-              construímo-lo imagem a imagem, frame a frame.
+            <p className="font-display text-3xl font-black uppercase leading-[1.05] tracking-tighter md:text-5xl">
+              Adaptar é o nosso método.
+            </p>
+            <p className="mt-6 text-lg font-medium leading-relaxed text-muted-foreground">
+              Somos uma equipa pequena de Viseu com obsessão por detalhe. Acreditamos que cada projeto é uma
+              circunstância nova — e construímo-lo imagem a imagem, frame a frame, sem assumir que o que
+              funcionou ontem funciona amanhã.
             </p>
             <div className="mt-16 grid gap-10 sm:grid-cols-3">
               {[
@@ -192,8 +200,8 @@ function Index() {
                 { n: "14", label: "Prémios internacionais" },
               ].map((s) => (
                 <div key={s.label} className="border-t border-border pt-6">
-                  <p className="font-display text-4xl text-accent">{s.n}</p>
-                  <p className="mt-2 text-sm text-muted-foreground">{s.label}</p>
+                  <p className="font-display text-4xl font-black text-accent">{s.n}</p>
+                  <p className="mt-2 text-sm font-medium text-muted-foreground">{s.label}</p>
                 </div>
               ))}
             </div>
@@ -223,15 +231,15 @@ function Index() {
       {/* Contact */}
       <section id="contact" className="border-t border-border">
         <div className="mx-auto max-w-7xl px-6 py-28 text-center md:py-44">
-          <p className="mb-6 text-xs uppercase tracking-[0.35em] text-muted-foreground">Novo projeto</p>
+          <p className="mb-6 text-xs font-semibold uppercase tracking-[0.35em] text-muted-foreground">Novo projeto</p>
           <a
             href="mailto:hello@adaptive.studio"
-            className="group inline-flex items-center gap-4 font-display text-[10vw] tracking-tight transition-colors hover:text-accent md:text-8xl"
+            className="group inline-flex items-center gap-4 font-display text-[12vw] font-black uppercase tracking-tighter transition-colors hover:text-accent md:text-8xl"
           >
             Vamos criar
             <ArrowUpRight className="h-[0.6em] w-[0.6em] transition-transform duration-300 group-hover:-translate-y-2 group-hover:translate-x-2" />
           </a>
-          <p className="mt-10 text-sm text-muted-foreground">hello@adaptive.studio</p>
+          <p className="mt-10 text-sm font-medium text-muted-foreground">hello@adaptive.studio</p>
         </div>
       </section>
 
