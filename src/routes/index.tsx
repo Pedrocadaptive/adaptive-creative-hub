@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { ArrowDown, ArrowUpRight } from "lucide-react";
+import { ArrowUpRight } from "lucide-react";
 
 import logoWhite from "@/assets/adaptive-logo-white.png.asset.json";
 import symbolWhite from "@/assets/adaptive-symbol-white.png.asset.json";
