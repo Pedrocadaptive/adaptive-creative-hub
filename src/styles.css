@@ -45,13 +45,13 @@
   --secondary-foreground: oklch(0.93 0.008 80);
   --muted: oklch(0.19 0.007 60);
   --muted-foreground: oklch(0.62 0.01 70);
-  --accent: oklch(0.78 0.13 75);
+  --accent: oklch(0.53 0.2 268);
   --accent-foreground: oklch(0.115 0.005 60);
   --destructive: oklch(0.6 0.19 25);
   --destructive-foreground: oklch(0.93 0.008 80);
   --border: oklch(1 0 0 / 12%);
   --input: oklch(1 0 0 / 16%);
-  --ring: oklch(0.78 0.13 75);
+  --ring: oklch(0.53 0.2 268);
 }
 
 @theme {

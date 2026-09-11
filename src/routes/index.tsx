@@ -1,6 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ArrowDown, ArrowUpRight } from "lucide-react";
 
+import logoWhite from "@/assets/adaptive-logo-white.png.asset.json";
+import symbolWhite from "@/assets/adaptive-symbol-white.png.asset.json";
 import workLight from "@/assets/work-light.jpg";
 import workChrome from "@/assets/work-chrome.jpg";
 import workDance from "@/assets/work-dance.jpg";
@@ -76,8 +78,8 @@ function Index() {
       {/* Nav */}
       <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
-          <a href="#top" className="text-sm font-semibold uppercase tracking-[0.3em]">
-            Adaptive
+          <a href="#top" aria-label="Adaptive Creative Studio">
+            <img src={logoWhite.url} alt="Adaptive" className="h-4 w-auto" />
           </a>
           <div className="hidden items-center gap-8 text-xs uppercase tracking-[0.2em] text-muted-foreground md:flex">
             <a href="#work" className="transition-colors hover:text-foreground">
@@ -105,10 +107,11 @@ function Index() {
           className="pointer-events-none absolute inset-0 opacity-40"
           style={{
             background:
-              "radial-gradient(ellipse 60% 45% at 50% 30%, oklch(0.35 0.08 70 / 0.5), transparent 70%)",
+              "radial-gradient(ellipse 60% 45% at 50% 30%, oklch(0.38 0.16 268 / 0.55), transparent 70%)",
           }}
         />
         <div className="relative mx-auto w-full max-w-7xl">
+          <img src={symbolWhite.url} alt="" className="mb-8 h-14 w-auto opacity-90" />
           <p className="mb-6 text-xs uppercase tracking-[0.35em] text-muted-foreground">
             Estúdio criativo — Lisboa · São Paulo
           </p>
@@ -235,7 +238,10 @@ function Index() {
       {/* Footer */}
       <footer className="border-t border-border">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-xs uppercase tracking-[0.25em] text-muted-foreground md:flex-row">
-          <span>© 2026 Adaptive Creative Studio</span>
+          <span className="flex items-center gap-3">
+            <img src={symbolWhite.url} alt="Símbolo Adaptive" className="h-5 w-auto" />
+            © 2026 Adaptive Creative Studio
+          </span>
           <div className="flex gap-8">
             <a href="#top" className="transition-colors hover:text-foreground">
               Instagram
