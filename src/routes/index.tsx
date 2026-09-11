@@ -111,7 +111,6 @@ function Index() {
           }}
         />
         <div className="relative mx-auto w-full max-w-7xl">
-          <img src={symbolWhite.url} alt="" className="mb-8 h-14 w-auto opacity-90" />
           <h1 className="max-w-4xl font-display text-3xl font-black uppercase leading-[1.15] tracking-tight text-balance md:text-5xl">
             EARN THE FUTURE. UM ESTÚDIO QUE ADAPTA MARCAS À NOVA ERA DIGITAL COM ESTRATÉGIA, CRIATIVIDADE E TECNOLOGIA.
           </h1>
