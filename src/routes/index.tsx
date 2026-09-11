@@ -76,7 +76,7 @@ function Index() {
   return (
     <div className="min-h-screen bg-background text-foreground">
       {/* Nav */}
-      <header className="fixed inset-x-0 top-0 z-50 border-b border-border bg-background/80 backdrop-blur-md">
+      <header className="fixed inset-x-0 top-0 z-50 bg-background/80 backdrop-blur-md">
         <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
           <a href="#top" aria-label="Adaptive Creative Studio">
             <img src={logoWhite.url} alt="Adaptive" className="h-4 w-auto" />
@@ -115,8 +115,8 @@ function Index() {
           <h1 className="max-w-4xl font-display text-3xl font-black uppercase leading-[1.15] tracking-tight text-balance md:text-5xl">
             EARN THE FUTURE. UM ESTÚDIO QUE ADAPTA MARCAS À NOVA ERA DIGITAL COM ESTRATÉGIA, CRIATIVIDADE E TECNOLOGIA.
           </h1>
-          <div className="mt-12 flex items-center gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
-            <ArrowDown className="h-4 w-4 animate-bounce" />
+          <div className="mt-12 flex items-center justify-end gap-3 text-xs uppercase tracking-[0.3em] text-muted-foreground">
+            <img src={symbolWhite.url} alt="" className="h-4 w-auto animate-bounce opacity-80" />
             Scroll
           </div>
         </div>
