@@ -112,9 +112,6 @@ function Index() {
         />
         <div className="relative mx-auto w-full max-w-7xl">
           <img src={symbolWhite.url} alt="" className="mb-8 h-14 w-auto opacity-90" />
-          <p className="mb-6 text-xs uppercase tracking-[0.35em] text-muted-foreground">
-            Estúdio criativo — Viseu, Portugal
-          </p>
           <h1 className="font-display text-[14vw] font-black uppercase leading-[0.85] tracking-tighter text-balance md:text-[8.5rem]">
             Earn the <br className="hidden md:block" />
             <span className="text-transparent" style={{ WebkitTextStroke: "1.5px currentColor" }}>
